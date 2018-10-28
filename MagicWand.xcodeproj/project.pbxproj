@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4568F4C72186269D00E4292F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4568F4C62186269D00E4292F /* AppDelegate.swift */; };
+		4568F4C92186269D00E4292F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4568F4C82186269D00E4292F /* ViewController.swift */; };
+		4568F4CC2186269D00E4292F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4568F4CA2186269D00E4292F /* Main.storyboard */; };
+		4568F4CE2186269F00E4292F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4568F4CD2186269F00E4292F /* Assets.xcassets */; };
+		4568F4D12186269F00E4292F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4568F4CF2186269F00E4292F /* LaunchScreen.storyboard */; };
+		4568F4DC218626A000E4292F /* MagicWandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4568F4DB218626A000E4292F /* MagicWandTests.swift */; };
+		4568F4E7218626A000E4292F /* MagicWandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4568F4E6218626A000E4292F /* MagicWandUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4568F4D8218626A000E4292F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4568F4BB2186269D00E4292F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4568F4C22186269D00E4292F;
+			remoteInfo = MagicWand;
+		};
+		4568F4E3218626A000E4292F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4568F4BB2186269D00E4292F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4568F4C22186269D00E4292F;
+			remoteInfo = MagicWand;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4568F4C32186269D00E4292F /* MagicWand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicWand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4568F4C62186269D00E4292F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4568F4C82186269D00E4292F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4568F4CB2186269D00E4292F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4568F4CD2186269F00E4292F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4568F4D02186269F00E4292F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4568F4D22186269F00E4292F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4568F4D7218626A000E4292F /* MagicWandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicWandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4568F4DB218626A000E4292F /* MagicWandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicWandTests.swift; sourceTree = "<group>"; };
+		4568F4DD218626A000E4292F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4568F4E2218626A000E4292F /* MagicWandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicWandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4568F4E6218626A000E4292F /* MagicWandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicWandUITests.swift; sourceTree = "<group>"; };
+		4568F4E8218626A000E4292F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4568F4C02186269D00E4292F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4568F4D4218626A000E4292F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4568F4DF218626A000E4292F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4568F4BA2186269D00E4292F = {
+			isa = PBXGroup;
+			children = (
+				4568F4C52186269D00E4292F /* MagicWand */,
+				4568F4DA218626A000E4292F /* MagicWandTests */,
+				4568F4E5218626A000E4292F /* MagicWandUITests */,
+				4568F4C42186269D00E4292F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4568F4C42186269D00E4292F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4568F4C32186269D00E4292F /* MagicWand.app */,
+				4568F4D7218626A000E4292F /* MagicWandTests.xctest */,
+				4568F4E2218626A000E4292F /* MagicWandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4568F4C52186269D00E4292F /* MagicWand */ = {
+			isa = PBXGroup;
+			children = (
+				4568F4C62186269D00E4292F /* AppDelegate.swift */,
+				4568F4C82186269D00E4292F /* ViewController.swift */,
+				4568F4CA2186269D00E4292F /* Main.storyboard */,
+				4568F4CD2186269F00E4292F /* Assets.xcassets */,
+				4568F4CF2186269F00E4292F /* LaunchScreen.storyboard */,
+				4568F4D22186269F00E4292F /* Info.plist */,
+			);
+			path = MagicWand;
+			sourceTree = "<group>";
+		};
+		4568F4DA218626A000E4292F /* MagicWandTests */ = {
+			isa = PBXGroup;
+			children = (
+				4568F4DB218626A000E4292F /* MagicWandTests.swift */,
+				4568F4DD218626A000E4292F /* Info.plist */,
+			);
+			path = MagicWandTests;
+			sourceTree = "<group>";
+		};
+		4568F4E5218626A000E4292F /* MagicWandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4568F4E6218626A000E4292F /* MagicWandUITests.swift */,
+				4568F4E8218626A000E4292F /* Info.plist */,
+			);
+			path = MagicWandUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4568F4C22186269D00E4292F /* MagicWand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4568F4EB218626A000E4292F /* Build configuration list for PBXNativeTarget "MagicWand" */;
+			buildPhases = (
+				4568F4BF2186269D00E4292F /* Sources */,
+				4568F4C02186269D00E4292F /* Frameworks */,
+				4568F4C12186269D00E4292F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicWand;
+			productName = MagicWand;
+			productReference = 4568F4C32186269D00E4292F /* MagicWand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4568F4D6218626A000E4292F /* MagicWandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4568F4EE218626A000E4292F /* Build configuration list for PBXNativeTarget "MagicWandTests" */;
+			buildPhases = (
+				4568F4D3218626A000E4292F /* Sources */,
+				4568F4D4218626A000E4292F /* Frameworks */,
+				4568F4D5218626A000E4292F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4568F4D9218626A000E4292F /* PBXTargetDependency */,
+			);
+			name = MagicWandTests;
+			productName = MagicWandTests;
+			productReference = 4568F4D7218626A000E4292F /* MagicWandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4568F4E1218626A000E4292F /* MagicWandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4568F4F1218626A000E4292F /* Build configuration list for PBXNativeTarget "MagicWandUITests" */;
+			buildPhases = (
+				4568F4DE218626A000E4292F /* Sources */,
+				4568F4DF218626A000E4292F /* Frameworks */,
+				4568F4E0218626A000E4292F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4568F4E4218626A000E4292F /* PBXTargetDependency */,
+			);
+			name = MagicWandUITests;
+			productName = MagicWandUITests;
+			productReference = 4568F4E2218626A000E4292F /* MagicWandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4568F4BB2186269D00E4292F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Caleb Mitcler";
+				TargetAttributes = {
+					4568F4C22186269D00E4292F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					4568F4D6218626A000E4292F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4568F4C22186269D00E4292F;
+					};
+					4568F4E1218626A000E4292F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4568F4C22186269D00E4292F;
+					};
+				};
+			};
+			buildConfigurationList = 4568F4BE2186269D00E4292F /* Build configuration list for PBXProject "MagicWand" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4568F4BA2186269D00E4292F;
+			productRefGroup = 4568F4C42186269D00E4292F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4568F4C22186269D00E4292F /* MagicWand */,
+				4568F4D6218626A000E4292F /* MagicWandTests */,
+				4568F4E1218626A000E4292F /* MagicWandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4568F4C12186269D00E4292F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4568F4D12186269F00E4292F /* LaunchScreen.storyboard in Resources */,
+				4568F4CE2186269F00E4292F /* Assets.xcassets in Resources */,
+				4568F4CC2186269D00E4292F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4568F4D5218626A000E4292F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4568F4E0218626A000E4292F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4568F4BF2186269D00E4292F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4568F4C92186269D00E4292F /* ViewController.swift in Sources */,
+				4568F4C72186269D00E4292F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4568F4D3218626A000E4292F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4568F4DC218626A000E4292F /* MagicWandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4568F4DE218626A000E4292F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4568F4E7218626A000E4292F /* MagicWandUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4568F4D9218626A000E4292F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4568F4C22186269D00E4292F /* MagicWand */;
+			targetProxy = 4568F4D8218626A000E4292F /* PBXContainerItemProxy */;
+		};
+		4568F4E4218626A000E4292F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4568F4C22186269D00E4292F /* MagicWand */;
+			targetProxy = 4568F4E3218626A000E4292F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4568F4CA2186269D00E4292F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4568F4CB2186269D00E4292F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4568F4CF2186269F00E4292F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4568F4D02186269F00E4292F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4568F4E9218626A000E4292F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4568F4EA218626A000E4292F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4568F4EC218626A000E4292F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J742724FE7;
+				INFOPLIST_FILE = MagicWand/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calebmitcler.MagicWand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4568F4ED218626A000E4292F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J742724FE7;
+				INFOPLIST_FILE = MagicWand/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calebmitcler.MagicWand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4568F4EF218626A000E4292F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J742724FE7;
+				INFOPLIST_FILE = MagicWandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calebmitcler.MagicWandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicWand.app/MagicWand";
+			};
+			name = Debug;
+		};
+		4568F4F0218626A000E4292F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J742724FE7;
+				INFOPLIST_FILE = MagicWandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calebmitcler.MagicWandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicWand.app/MagicWand";
+			};
+			name = Release;
+		};
+		4568F4F2218626A000E4292F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J742724FE7;
+				INFOPLIST_FILE = MagicWandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calebmitcler.MagicWandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicWand;
+			};
+			name = Debug;
+		};
+		4568F4F3218626A000E4292F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J742724FE7;
+				INFOPLIST_FILE = MagicWandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calebmitcler.MagicWandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicWand;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4568F4BE2186269D00E4292F /* Build configuration list for PBXProject "MagicWand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4568F4E9218626A000E4292F /* Debug */,
+				4568F4EA218626A000E4292F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4568F4EB218626A000E4292F /* Build configuration list for PBXNativeTarget "MagicWand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4568F4EC218626A000E4292F /* Debug */,
+				4568F4ED218626A000E4292F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4568F4EE218626A000E4292F /* Build configuration list for PBXNativeTarget "MagicWandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4568F4EF218626A000E4292F /* Debug */,
+				4568F4F0218626A000E4292F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4568F4F1218626A000E4292F /* Build configuration list for PBXNativeTarget "MagicWandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4568F4F2218626A000E4292F /* Debug */,
+				4568F4F3218626A000E4292F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4568F4BB2186269D00E4292F /* Project object */;
+}
